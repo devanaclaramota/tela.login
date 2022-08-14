@@ -77,14 +77,14 @@ color: black;
 p{
     padding-bottom:2em  ;
 }
-div#img01{ background-image: url('pacote-d012/imagens/background001.jpg');
+div#img01{ background-image: url('imagens/background001.jpg');
     background-position: right center;
     background-size: cover;
     background-attachment: fixed;
 
 }
 div#img02{
-    background-image: url('pacote-d012/imagens/background002.jpg');
+    background-image: url('imagens/background002.jpg');
     background-position: right center;
     background-size: cover;
     background-attachment: fixed;
