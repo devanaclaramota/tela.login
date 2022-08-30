@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telade-de-login</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaquery.css">
+</head>
+<body onresize="mudouTamanho()">
+    <header>
+        <img src="images/cursoemvideo-logo.png" alt="">
+            <span  id="burguer" class="material-symbols-rounded" onclick="clickMenu()">
+                     menu
+            </span>
+        <nav id="itens">
+            <ul>
+                <li><a class="menu" href="#">Menu</a></li>
+                <li><a class="menu" href="#">Menu</a></li>
+                <li><a class="menu" href="#">Menu</a></li>
+                <li><a class="menu" href="#">Menu</a></li>
+                <li><a class="menu" href="#">Menu</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="conteudo">
+            <h1>Entrar</h1>
+            <img src="images/" alt="">
+            <form action="cadastro.php" autocomplete="off" method="post">
+                <div>
+                    <label  for="iemail">Email: </label> <br>
+                    <input  type="email" name="email" id="iemal">
+                </div>
+                <div>
+                    <label for="isenha">Senha: </label> <br>
+                    <input type="password" name="senha" id="isenha">
+                </div>
+                <div class="check">
+                    
+                    <input type="checkbox" name="lembrar" id="ilembrar">
+                    <label for="ilembrar">Lembrar-me</label>
+                </div>
+                <div class="entrar">
+                    <input class="submit" type="submit" value="Entrar">
+                </div>
+                <aside>
+                    <a href="#">Cadastrar</a>
+                    <a href="#">Esqueceu a senha?</a>
+                </aside>
+            </form>
+        </div>
+    </main>
+    <script>
+        function clickMenu(){
+         if(itens.style.display == 'block'){
+            itens.style.display = 'none'
+         } else {
+            itens.style.display = 'block'
+         }
+        }
+        function mudouTamanho(){
+            if (window.innerWidth >=769){
+                menu.style.display ="flex"
+            } else {
+                menu.style.display = 'none'
+            }
+        }
+    </script>
+</body>
+</html>

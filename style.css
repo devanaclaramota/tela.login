@@ -1,91 +1,101 @@
-@charset utf8 
-@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
-
 *{
- margin: 0px;
- padding: 0px;
+    margin: 0px;
+    padding: 0px;
     
 }
-body{
-    min-width:100vh 
+header img{
+    width: 220px;
+
 }
-header{
-    background-color: black;
-    color:white;
+#itens{
+    display: none;
+}
+.menu{
+    background-color: #2222FE;
+    border: 2px solid white;
+    display: block;
+    color: white; 
+    text-decoration: none;
     text-align: center;
-    width: auto;
-    height:200px;
+}
+.menu:hover{
+    background-color: white;
+    color: #2222FE;
+    border: 2px solif #2222FE;
+}
+#burguer{
+    display: block;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #2222FE;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+main{
+    background-color: #2222FE;
+    
+    padding: 40px;
+    
+} 
+.conteudo{
+    background-color: white;
+    width: 400px;
+    margin: auto;
     padding: 30px;
-    margin: -10px;
-    font-style:inherit;
-   
+    border-radius: 15px;
 }
+
+
+
+
 h1{
-    font-family:'passion one', Arial, Helvetica, sans-serif;
-    font-size: 4em;
-
+    padding: 20px;
+    font-size: 2em;
+    color: rgb(6, 6, 52);
+    text-align: center;
 }
-a{
-    text-decoration:none ;
-    color: white;
-}
-a:hover{
-    text-decoration: underline;
-}
-/*  CSS DE HEADER */
-
-
-
-
-
-
-
-
-
-
-
-
-
 div{
+    padding-left: 30px;
 
-    font-family: 'Sriracha', cursive,Arial, Helvetica, sans-serif;
-   
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    padding-left: 45px;
-    line-height: 2em;
-   
-    
-}
-.imagem{
-    background-color: black;
-}
-.simples{
-background-color: white;
-color: black;
+    font-size: 1.2;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
-.back{ 
-    background-color: rgba(120, 117, 117, 0.3);
+input{
+    height: 30px;
+    background-color: lightcyan ;
+    border-radius: 15px;
+}
+.submit{
+    background-color: #2222FE;
     color: white;
-    padding: 5px;
-    width: 200px;
-    border-radius: 10px;
-    
-}
-p{
-    padding-bottom:2em  ;
-}
-div#img01{ background-image: url('imagens/background001.jpg');
-    background-position: right center;
-    background-size: cover;
-    background-attachment: fixed;
+    width: 100px;
+    cursor: pointer;
 
 }
-div#img02{
-    background-image: url('imagens/background002.jpg');
-    background-position: right center;
-    background-size: cover;
-    background-attachment: fixed;
+.check{
+    padding: 10px;
+}
+.entrar{
+    padding: 10px;
+
+}
+aside{
+    padding: 15px;
 }
